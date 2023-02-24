@@ -80,7 +80,7 @@ const displayMealDetails = meal => {
             </div>
             <div class" flex justify-center">
                 <h2 class="card-title mt-3 justify-around">Category: ${meal.strCategory}</h2>
-                <div class="grid grid-cols-2 mx-40 mt-12">
+                <div class="grid grid-cols-2 lg:mx-40 lg:mt-12">
                 <p>Area: ${meal.strArea}</p>
                 <p>Measure: ${meal.strMeasure1}</p>
                 
